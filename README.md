@@ -7,7 +7,7 @@
 ## 🎯 Current Goals
 - Python 기초 학습 및 실습
 - Git / GitHub 사용 연습
-- 문제 해결 및 논리적 사고 능력 강화
+- 문제 해결 및 논리적 사고 능력 강
 
 ## 🔍 Areas of Interest
 - Biology + Tech integration
