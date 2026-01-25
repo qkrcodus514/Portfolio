@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #파이썬의 기본 자료형
 print(123)
 123
@@ -31,12 +32,17 @@ num = 3
 print(num+5)
 8
 =======
+=======
+ #파이썬의 기본 자료형 연습
+>>>>>>> 45d5ab3 (Study: add Python practice file)
  print(123)
 123
 >>> print('Faker')
 Faker
 >>> print(1,2,3)
 1 2 3
+
+#파이썬 변수
 >>> age=13
 >>> name='T1'
 >>> grade = ['A+', 'A0', 'A-']
@@ -46,6 +52,8 @@ T1
 13
 >>> print(grade)
 ['A+', 'A0', 'A-']
+
+#자료형 사칙연산 
 >>> print(3+5)
 8
 >>> print(3-2)
