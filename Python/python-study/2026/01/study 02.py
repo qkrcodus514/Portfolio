@@ -37,4 +37,3 @@ str2='Doran'*2
 T1=(str1+str2)*2
 print(T1)
 LoveFakerDoranDoranLoveFakerDoranDoran
->>>
