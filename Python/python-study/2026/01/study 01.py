@@ -12,9 +12,9 @@ print(age)
 print(grade)
 
 #자료형 사칙연산 예제
-print(3+5)
-print(3-2)
-print(3*8)
-print(4/2)
+print(3 + 5)
+print(3 - 2)
+print(3 * 8)
+print(4 / 2)
 num = 3
-print(num+5)
+print(num + 5)
