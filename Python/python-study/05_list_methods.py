@@ -59,9 +59,9 @@ result = sorted(numbers)
 print("정렬 결과:", result)
 print("원본 리스트:", numbers)
 
-# ==============================
+# ================================
 # [Example 06] sorted() 내림차순
-# ==============================
+# ================================
 scores = [96, 92, 91, 88, 85]
 result = sorted(scores, reverse=True)
 
