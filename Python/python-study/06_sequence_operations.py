@@ -95,6 +95,13 @@ scores = [95, 88, 76, 92, 85]
 result = scores[:len(scores) // 2]
 print("앞쪽 절반 데이터:", result)
 
+password = "abc123"
+
+if len(password) >= 6:
+    print("사용 가능한 비밀번호입니다.")
+else:
+    print("비밀번호가 너무 짧습니다.")
+
 #===============================
 # [Example 06] 연결 연산
 #===============================
