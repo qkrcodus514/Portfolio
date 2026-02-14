@@ -16,8 +16,12 @@
 
 | 파일명 | 개념 | 설명 |
 |--------|------|------|
-| 01_variables_experiment.py | 변수 & 자료형 | 변수 선언, 자료형 확인, 변환 실험 |
-
+| 01_variables_and_types.py | 변수 & 자료형 | 변수 선언, 자료형 확인, 변환 실험 |
+| 02_arithmetic_operator_practice.py | 사칙연산 | 파이썬 내의 사칙연산의 이해 |
+| 03_string_operator_practice.py | 문자열 연산 | 문자열 연산의 이해 |
+| 04_lists_and_indexing.py | 리스트 & 인덱싱 | 리스트 생성, 양수 인덱싱 |
+| 05_list_slicing_practice.py | 슬라이싱 | 기본 슬라이싱, 시작/끝 생략, 음수 인덱싱, step 사용, 리스트 복사 |
+|06_input_practice.py | input() | input()의 반환 자료형 확인, 형 반환 전후 비교, 형 반환 필요성 이해 |
 
 ---
 
