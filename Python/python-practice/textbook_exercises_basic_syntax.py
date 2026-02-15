@@ -1,8 +1,14 @@
 """
-[Portfolio Experiment] Python Code Log
-- 내가 실제로 코드를 실행하며 확인한 학습 기록입니다.
-- 시도 → 결과 → 느낀 점 순으로 작성, 실패와 수정 과정 포함.
-- 스터디나 README와 달리, ‘실제 경험’ 위주 연습 파일입니다.
+🧪 [Portfolio Experiment] Python Code Log
+
+This file records hands-on experimentation through direct code execution.
+It follows the learning flow: 
+Attempt → Result → 💡 Reflection
+
+Revisions are applied after reviewing execution results.
+
+📘 Structured examples are stored in study files.
+🧠 Conceptual explanations are documented in the README 🐍.
 """
 """
 Topic: Basic Syntax Practice
