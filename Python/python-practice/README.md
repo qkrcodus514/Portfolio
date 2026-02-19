@@ -25,6 +25,7 @@
 | 07_type_casting_practice.py | int(), float(), str(), bool() | int(), float(), str(), bool()의 형 변환, 나눗셈 연산자의 결과 타입 차이, 자동 형 변환 |
 | 08_comparison_operator_practice.py | 비교연산 | 비교연산의 이해 |
 | 09_logical_operator_practice.py | 논리 연산 | 논리 연산의 이해 |
+| 10_conditional_statement_practice.py | if, if-else, ir-elif-else | if문, if-else문, if-elif-else문의 구분과 이해 |
 | textbook_exercise_basic_syntax.py | 기본 구문 연습 | 기본 출력 연습, 섭씨 -> 화씨 변환, 숫자 자릿수 판별, 점수에 따른 등급 판별 |
 
 
