@@ -672,3 +672,27 @@ sorted(이터러블, key=함수, reverse=True)
 🧠 정리
 반복문을 통해 같은 작업을 효율적으로 처리하는 사고방식을 익히게 되었다.
 코드의 양보다 흐름과 조건을 설계하는 것이 중요하다는 점을 느낀 단원이었다.
+
+## 13. 🐍 자료형 매서드 심화 (List & String Methods)
+🎯 Why This Matters
+ 실무에서 다루는 대부분의 데이터는 문자열(String) 또는 리스트(List) 형태로 들어온다.
+
+ 특히 다음과 같은 상황에서 필수적으로 사용된다.
+ - Game log parsing
+ - CVS 데이터 처리
+ - Match result analysis
+ - Runtime data structure control
+
+### 1. .pop()
+- pop(): 리스트(List)에서 특정 위치의 요소를 제거하고 그 값을 반환하는 매서드 (Controlled Data Removal)
+- 반환: 함수를 사용하려고 불러낸 위치에 결괏값을 알려주는 것
+- 기본형: list.pop(index)
+- index를 생략하면 마지막 요소를 제거
+- 제거된 값을 리턴(return)이라고 함
+- 원본 리스트 변경 (mutable)
+- 잘못된 인덱스 -> IndexError
+- 빈 리스트에서 호출 -> IndexError
+- pop(0) 은 O(n)
+- pop()(last element)는 O(1)
+- 대규모 데이터에서 pop(0)은 비효율적
+- collections.deque 사용을 고려
