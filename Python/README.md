@@ -696,3 +696,24 @@ sorted(이터러블, key=함수, reverse=True)
 - pop()(last element)는 O(1)
 - 대규모 데이터에서 pop(0)은 비효율적
 - collections.deque 사용을 고려
+
+
+### 2. count()
+- count(): 시퀀스 내 특정 값의 정확한 등장 횟수를 반환 (Frequency Analysis)
+- 기본형: sequence.count(value)
+- list/tuple/string에서 사용 가능
+- 문자열은 대소문자 구분
+- 겹치는 부분 문자열은 세지 않음
+- 시간복잡도 O(n)
+- 대규모 데이터에서는 dict 또는 collections.Counter 기반 분석이 효율적
+
+### 3. split()
+- split(): 문자열을 특정 구분자를 기분으로 분리하여 리스트로 반환 (Parsing Raw Text)
+- 기본형: string.split(separator)
+- 기본 구분자: 공백
+- 반환값: list[str]
+- 결과는 항상 문자열 리스트
+- 숫자 사용 시 int() 변환 필요
+- 구분자 지정 여부에 따라 결과 구조 달라짐
+- Raw Text -> split() -> Structured List
+  
