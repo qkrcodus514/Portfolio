@@ -717,3 +717,9 @@ sorted(이터러블, key=함수, reverse=True)
 - 구분자 지정 여부에 따라 결과 구조 달라짐
 - Raw Text -> split() -> Structured List
   
+### 4. .join()
+- join(): 문자열 iterable을 하나의 문자열로 결합 (Structured Output Formatting)
+- 기본형: separator.join(iterable)
+- 모든 요소는 반드시 문자열
+- Processed List -> join() -> Structured Output
+
